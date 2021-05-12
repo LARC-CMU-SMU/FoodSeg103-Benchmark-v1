@@ -27,7 +27,8 @@ Please refer to [get_started.md](docs/get_started.md#installation) for installat
 
 ## Dataset
 
-Please download [FoodSeg103](https://drive.google.com/file/d/1Ah-YebA_lQdnM1ckbbN2-b28-pXkXroE/view), and unzip it in ./data folder. The structure of the dataset should be like:
+Please download [FoodSeg103](https://drive.google.com/file/d/1Ah-YebA_lQdnM1ckbbN2-b28-pXkXroE/view), and unzip it in ./data folder (./data/FoodSeg103/). 
+
 
 
 ## Benchmark and model zoo
@@ -35,24 +36,24 @@ Please download [FoodSeg103](https://drive.google.com/file/d/1Ah-YebA_lQdnM1ckbb
 
 Encoder | Decoder | Crop Size |  Batch Size |mIoU | mAcc | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:
-R-50	|	FPN   | 512x1024  | 8           |  27.8   |  38.2    | [Model+Config](https://drive.google.com/drive/folders/1CQ5CXxASAoobj7bKqyuvazkeusqMAM4F?usp=sharing)
+R-50	|	[FPN](https://arxiv.org/abs/1901.02446)   | 512x1024  | 8           |  27.8   |  38.2    | [Model+Config](https://drive.google.com/drive/folders/1CQ5CXxASAoobj7bKqyuvazkeusqMAM4F?usp=sharing)
 ReLeM-R-50	|	FPN   | 512x1024  | 8       |  29.1   |  39.8    | [Model+Config](https://drive.google.com/drive/folders/1m7N2EE8jkX67a0lD6GZ4NQgr4gEcWpDU?usp=sharing)
-R-50	|	CCNet   | 512x1024  | 8       |  35.5   |  45.3    | [Model+Config](https://drive.google.com/drive/folders/1pNPbtrGqCq_Zlina2PCs6X8bIvY9ZZxG?usp=sharing)
+R-50	|	[CCNet](https://arxiv.org/abs/1811.11721)   | 512x1024  | 8       |  35.5   |  45.3    | [Model+Config](https://drive.google.com/drive/folders/1pNPbtrGqCq_Zlina2PCs6X8bIvY9ZZxG?usp=sharing)
 ReLeM-R-50	|	CCNet   | 512x1024  | 8   |    36.8 | 47.4     | [Model+Config](https://drive.google.com/drive/folders/1FWwxAsZzDnBbDBEbohqOA8htyWgMLM4U?usp=sharing)
-PVT-S	|	FPN   | 512x1024  | 8           |   31.3  | 43.0     | Model+Config
+[PVT-S](https://arxiv.org/abs/2102.12122)	|	FPN   | 512x1024  | 8           |   31.3  | 43.0     | Model+Config
 ReLeM-PVT-S	|	FPN   | 512x1024  | 8           | 32.0    | 44.1     | Model+Config
-ViT-16/B	|	Naive   | 768x768  | 4           | 41.3    |  52.7    | [Model+Config](https://drive.google.com/drive/folders/19b3VG906CA-5kQFaJVk5U6kDxnw9HcWL?usp=sharing)
+[ViT-16/B](https://openreview.net/forum?id=YicbFdNTTy)	|	[Naive](https://arxiv.org/abs/2012.15840)   | 768x768  | 4           | 41.3    |  52.7    | [Model+Config](https://drive.google.com/drive/folders/19b3VG906CA-5kQFaJVk5U6kDxnw9HcWL?usp=sharing)
 ReLeM-ViT-16/B	|	Naive   | 768x768  | 4           | 43.9    |  57.0    | [Model+Config](https://drive.google.com/drive/folders/10yKiu8aMeTGphU2CKT2ybeAC3ezgDnXP?usp=sharing)
-ViT-16/B	|	MLA   | 768x768  | 4           |  45.1   | 57.4     | [Model+Config](https://drive.google.com/drive/folders/17Ht1HQDaBJmS0FXaXGjHk0VQNhAJxrlF?usp=sharing)
+ViT-16/B	|	[MLA](https://arxiv.org/abs/2012.15840)   | 768x768  | 4           |  45.1   | 57.4     | [Model+Config](https://drive.google.com/drive/folders/17Ht1HQDaBJmS0FXaXGjHk0VQNhAJxrlF?usp=sharing)
 ReLeM-ViT-16/B	|	MLA   | 768x768  | 4           | 43.3    | 55.9     | [Model+Config](https://drive.google.com/drive/folders/12OlkStefNmELNLo-xJqc-lE-kPZ7DvPV?usp=sharing)
-ViT-16/L	|	MLA   | 768x768  | 4           |  44.5   |   56.6   | [Model+Config](https://drive.google.com/drive/folders/1PS4uh2zktNc0hh-mSLZkRTqgNnkfh7xu?usp=sharing)
-Swin-S	|	UperNet   | 512x1024  | 8           |  41.6   |  53.6    | [Model+Config](https://drive.google.com/drive/folders/1E5fZga8h65dNZCX1m8zywvB8MwrleFNg?usp=sharing)
-Swin-B	|	UperNet   | 512x1024  | 8           |  41.2   |  53.9    | [Model+Config](https://drive.google.com/drive/folders/1kqOsH51h1pa-88tbFVUV3mmzTNCGzqd0?usp=sharing)
+[ViT-16/L](https://openreview.net/forum?id=YicbFdNTTy)	|	MLA   | 768x768  | 4           |  44.5   |   56.6   | [Model+Config](https://drive.google.com/drive/folders/1PS4uh2zktNc0hh-mSLZkRTqgNnkfh7xu?usp=sharing)
+[Swin-S](https://arxiv.org/abs/2103.14030)	|	[UperNet](https://arxiv.org/abs/1807.10221)   | 512x1024  | 8           |  41.6   |  53.6    | [Model+Config](https://drive.google.com/drive/folders/1E5fZga8h65dNZCX1m8zywvB8MwrleFNg?usp=sharing)
+[Swin-B](https://arxiv.org/abs/2103.14030)	|	UperNet   | 512x1024  | 8           |  41.2   |  53.9    | [Model+Config](https://drive.google.com/drive/folders/1kqOsH51h1pa-88tbFVUV3mmzTNCGzqd0?usp=sharing)
 
 
-[1] *We do not include the implementation of [swin](https://arxiv.org/abs/2103.14030) in this software. You can use the official [implementation](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation) based on our provided models.
-[2] *We use Step-wise learning policy to train PVT model since we found this policy can yield higher performance, and for other baselines we adopt the default settings.
-[3] *We use Recipe1M to train ReLeM-PVT-S while other ReLeM models are trained with Recipe1M+ due to time limitation.
+[1] *We do not include the implementation of [swin](https://arxiv.org/abs/2103.14030) in this software. You can use the official [implementation](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation) based on our provided models.* \
+[2] *We use Step-wise learning policy to train PVT model since we found this policy can yield higher performance, and for other baselines we adopt the default settings.* \
+[3] *We use Recipe1M to train ReLeM-PVT-S while other ReLeM models are trained with Recipe1M+ due to time limitation.*
 
 
 
@@ -60,27 +61,27 @@ Swin-B	|	UperNet   | 512x1024  | 8           |  41.2   |  53.9    | [Model+Confi
 
 Train script:
 
-'''
+```
  CUDA_VISIBLE_DEVICES=0,1,2,3  python -m torch.distributed.launch --nproc_per_node=4 --master_port=${PORT:-300}    tools/train.py --config [config]  --work-dir [work-dir]  --launcher pytorch
-'''
+```
 
 Exmaple:
 
-'''
+```
  CUDA_VISIBLE_DEVICES=0,1,2,3  python -m torch.distributed.launch --nproc_per_node=4 --master_port=${PORT:-300}    tools/train.py --config configs/foodnet/SETR_Naive_768x768_80k_base_RM.py  --work-dir  checkpoints/SETR_Naive_ReLeM  --launcher pytorch
-'''
+```
 
 Test script:
 
-'''
+```
  CUDA_VISIBLE_DEVICES=0,1,2,3  python  -m torch.distributed.launch --nproc_per_node=4  --master_port=${PORT:-999} tools/test.py  [config]   [weights]  --launcher pytorch --eval mIoU
-'''
+```
 
 Example:
 
-'''
+```
  CUDA_VISIBLE_DEVICES=0,1,2,3  python  -m torch.distributed.launch --nproc_per_node=4  --master_port=${PORT:-999} tools/test.py  checkpoints/SETR_Naive_ReLeM/SETR_Naive_768x768_80k_base_RM.py   checkpoints/SETR_Naive_ReLeM/iter_80000.pth  --launcher pytorch --eval mIoU
-'''
+```
 
 ## ReLeM
 We train recipe information based on the implementation of [im2recipe](https://github.com/torralba-lab/im2recipe-Pytorch) with small modifications, which is trained on [Recipe1M+](http://pic2recipe.csail.mit.edu/) dataset (test images of FoodSeg103 are removed). I may upload the lmdb file later due to the huge datasize (>35G).
