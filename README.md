@@ -12,7 +12,7 @@ By [Xiongwei Wu](http://xiongweiwu.github.io/), [Xin Fu](https://xinfu607.github
 We build a new food image dataset FoodSeg103 containing 9,490 images. We annotate these images with 154 ingredient classes and each image has an average of 6 ingredient labels and pixel-wise masks.
 In addition, we propose a multi-modality pre-training approach called ReLeM that explicitly equips a segmentation model with rich and semantic food knowledge.
 
-In this software, we use three popular semantic segmentation methods (i.e., Dilated Convolution based, Feature Pyramid based, and Vision Transformer based) as baselines, and evaluate them as well as ReLeM on our new datasets. We believe that the FoodSeg103 and the pre-trained models using ReLeM can serve as a benchmark to facilitate future works on fine-grained food image understanding. Please refer our [paper]() for more details.
+In this software, we use three popular semantic segmentation methods (i.e., Dilated Convolution based, Feature Pyramid based, and Vision Transformer based) as baselines, and evaluate them as well as ReLeM on our new datasets. We believe that the FoodSeg103 and the pre-trained models using ReLeM can serve as a benchmark to facilitate future works on fine-grained food image understanding. Please refer our [paper](https://arxiv.org/abs/2105.05409) for more details.
 
 This software is mainly based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/). 
 
@@ -97,7 +97,7 @@ If you find this project useful in your research, please consider cite:
 @article{xu2021foodseg,
 	title={A Large-Scale Benchmark for Food Image Segmentation},
 	author={Wu, Xiongwei and Fu, Xin and Liu, Ying and Lim, Ee-Peng and Hoi, Steven CH and Sun, Qianru},
-	journal={arXiv preprint arXiv:XXXX.XXXX},
+	journal={arXiv preprint arXiv:2105.05409},
 	year={2021}
 }
 ```
