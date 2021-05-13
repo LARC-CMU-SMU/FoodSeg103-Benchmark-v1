@@ -94,7 +94,7 @@ It takes about 2~3 weeks to train a ReLeM ViT-Base model with 8 Tesla-V100 cards
 If you find this project useful in your research, please consider cite:
 
 ```latex
-@article{xu2021foodseg,
+@article{wu2021foodseg,
 	title={A Large-Scale Benchmark for Food Image Segmentation},
 	author={Wu, Xiongwei and Fu, Xin and Liu, Ying and Lim, Ee-Peng and Hoi, Steven CH and Sun, Qianru},
 	journal={arXiv preprint arXiv:2105.05409},
