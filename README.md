@@ -9,7 +9,7 @@ By [Xiongwei Wu](http://xiongweiwu.github.io/), [Xin Fu](https://xinfu607.github
 
 ## Introduction
 
-We build a new food image dataset FoodSeg103 containing 9,490 images. We annotate these images with 154 ingredient classes and each image has an average of 6 ingredient labels and pixel-wise masks.
+We build a new food image dataset FoodSeg103 containing 9,490 images. We annotate these images with 104 ingredient classes and each image has an average of 6 ingredient labels and pixel-wise masks.
 In addition, we propose a multi-modality pre-training approach called ReLeM that explicitly equips a segmentation model with rich and semantic food knowledge.
 
 In this software, we use three popular semantic segmentation methods (i.e., Dilated Convolution based, Feature Pyramid based, and Vision Transformer based) as baselines, and evaluate them as well as ReLeM on our new datasets. We believe that the FoodSeg103 and the pre-trained models using ReLeM can serve as a benchmark to facilitate future works on fine-grained food image understanding. Please refer our [paper](https://arxiv.org/abs/2105.05409) for more details.
