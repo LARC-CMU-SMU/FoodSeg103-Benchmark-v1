@@ -30,7 +30,9 @@ Please refer to [get_started.md](docs/get_started.md#installation) for installat
 
 Please download [FoodSeg103](https://drive.google.com/file/d/1WvP_u3q9ZY7QUfZWQNWFItiEazwoYgIp/view), and unzip it in ./data folder (./data/FoodSeg103/). 
 
+## Leaderboard
 
+Please refer to [leaderboard](https://paperswithcode.com/dataset/foodseg103) in paperwithcode website.
 
 ## Benchmark and model zoo
 
