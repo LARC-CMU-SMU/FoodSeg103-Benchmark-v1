@@ -1,6 +1,7 @@
 # A Large-Scale Benchmark for Food Image Segmentation
 
 By [Xiongwei Wu](http://xiongweiwu.github.io/), [Xin Fu](https://xinfu607.github.io/), Ying Liu, [Ee-Peng Lim](http://www.mysmu.edu/faculty/eplim/), [Steven C.H. Hoi](https://sites.google.com/view/stevenhoi/home/), [Qianru Sun](https://qianrusun.com/).
+  
 
 <div align="center">
   <img src="resources/foodseg103.png" width="800"/>
@@ -12,9 +13,9 @@ By [Xiongwei Wu](http://xiongweiwu.github.io/), [Xin Fu](https://xinfu607.github
 We build a new food image dataset FoodSeg103 containing 7,118 images. We annotate these images with 104 ingredient classes and each image has an average of 6 ingredient labels and pixel-wise masks.
 In addition, we propose a multi-modality pre-training approach called ReLeM that explicitly equips a segmentation model with rich and semantic food knowledge.
 
-In this software, we use three popular semantic segmentation methods (i.e., Dilated Convolution based, Feature Pyramid based, and Vision Transformer based) as baselines, and evaluate them as well as ReLeM on our new datasets. We believe that the FoodSeg103 and the pre-trained models using ReLeM can serve as a benchmark to facilitate future works on fine-grained food image understanding. Please refer our [paper](https://arxiv.org/abs/2105.05409) for more details.
+In this software, we use three popular semantic segmentation methods (i.e., Dilated Convolution based, Feature Pyramid based, and Vision Transformer based) as baselines, and evaluate them as well as ReLeM on our new datasets. We believe that the FoodSeg103 and the pre-trained models using ReLeM can serve as a benchmark to facilitate future works on fine-grained food image understanding. 
 
-This software is mainly based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/). 
+Please refer our [paper](https://arxiv.org/abs/2105.05409) and our [homepage](https://xiongweiwu.github.io/foodseg103.html) for more details.
 
 ## License
 
@@ -102,10 +103,12 @@ If you find this project useful in your research, please consider cite:
 }
 ```
 
-
 ## Other Issues
 
 If you meet other issues in using the software, you can check the original mmsegmentation (see [doc](https://mmsegmentation.readthedocs.io/) for more details).
 
 
+## Acknowledgement
 
+The segmentation software in this project was developed mainly by extending the [segmentation](https://github.com/open-mmlab/mmsegmentation/). 
+ 
