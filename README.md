@@ -47,6 +47,8 @@ ReLeM-R-50	|	CCNet   | 512x1024  | 8   |    36.8 | 47.4     | [Model+Config](htt
 ReLeM-PVT-S	|	FPN   | 512x1024  | 8           | 32.0    | 44.1     | Model+Config
 [ViT-16/B](https://openreview.net/forum?id=YicbFdNTTy)	|	[Naive](https://arxiv.org/abs/2012.15840)   | 768x768  | 4           | 41.3    |  52.7    | [Model+Config](https://drive.google.com/drive/folders/19b3VG906CA-5kQFaJVk5U6kDxnw9HcWL?usp=sharing)
 ReLeM-ViT-16/B	|	Naive   | 768x768  | 4           | 43.9    |  57.0    | [Model+Config](https://drive.google.com/drive/folders/10yKiu8aMeTGphU2CKT2ybeAC3ezgDnXP?usp=sharing)
+ViT-16/B	|	PUP   | 768x768  | 4           |  38.5   | 49.1     | Model+Config
+ReLeM-ViT-16/B	|	PUP   | 768x768  | 4           | 42.5    | 53.9     | Model+Config
 ViT-16/B	|	[MLA](https://arxiv.org/abs/2012.15840)   | 768x768  | 4           |  45.1   | 57.4     | [Model+Config](https://drive.google.com/drive/folders/17Ht1HQDaBJmS0FXaXGjHk0VQNhAJxrlF?usp=sharing)
 ReLeM-ViT-16/B	|	MLA   | 768x768  | 4           | 43.3    | 55.9     | [Model+Config](https://drive.google.com/drive/folders/12OlkStefNmELNLo-xJqc-lE-kPZ7DvPV?usp=sharing)
 [ViT-16/L](https://openreview.net/forum?id=YicbFdNTTy)	|	MLA   | 768x768  | 4           |  44.5   |   56.6   | [Model+Config](https://drive.google.com/drive/folders/1PS4uh2zktNc0hh-mSLZkRTqgNnkfh7xu?usp=sharing)
