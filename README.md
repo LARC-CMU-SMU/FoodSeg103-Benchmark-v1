@@ -28,7 +28,8 @@ Please refer to [get_started.md](docs/get_started.md#installation) for installat
 
 ## Dataset
 
-Please download [FoodSeg103](https://drive.google.com/file/d/1WvP_u3q9ZY7QUfZWQNWFItiEazwoYgIp/view), and unzip it in ./data folder (./data/FoodSeg103/). 
+Please download FoodSeg103 from [LARC Data Repository](https://larc.smu.edu.sg/foodseg103-benchmark-v1), and unzip it in ./data folder (./data/FoodSeg103/). 
+
 
 ## Leaderboard
 
