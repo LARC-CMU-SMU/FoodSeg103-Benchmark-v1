@@ -37,6 +37,7 @@ Please refer to [leaderboard](https://paperswithcode.com/dataset/foodseg103) in 
 
 ## Benchmark and model zoo
 
+**We need temporarily block the trained models (about 4 months), and if you want the models please send me the email**
 
 Encoder | Decoder | Crop Size |  Batch Size |mIoU | mAcc | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:
