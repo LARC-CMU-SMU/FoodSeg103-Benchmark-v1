@@ -93,7 +93,7 @@ Example:
 ## ReLeM
 We train recipe information based on the implementation of [im2recipe](https://github.com/torralba-lab/im2recipe-Pytorch) with small modifications, which is trained on [Recipe1M+](http://pic2recipe.csail.mit.edu/) dataset (test images of FoodSeg103 are removed). I may upload the lmdb file later due to the huge datasize (>35G).
 
-It takes about 2~3 weeks to train a ReLeM ViT-Base model with 8 Tesla-V100 cards, so I strongly recommend you use my pre-trained models([url](https://drive.google.com/drive/folders/1LRCHxeMuCXMb68I1XFI8q-aQ2cCyUx_r?usp=sharing).
+It takes about 2~3 weeks to train a ReLeM ViT-Base model with 8 Tesla-V100 cards, so I strongly recommend you use my pre-trained models([link](https://drive.google.com/drive/folders/1LRCHxeMuCXMb68I1XFI8q-aQ2cCyUx_r?usp=sharing)).
 
 
 ## Citation
