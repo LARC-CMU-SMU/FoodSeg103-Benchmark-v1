@@ -37,7 +37,7 @@ Please refer to [leaderboard](https://paperswithcode.com/dataset/foodseg103) in 
 
 ## Benchmark and model zoo
 
-**We need temporarily block the trained models (about 4 months), and if you want the models please send me the email**
+We have finished the course so the models are available again. Please download the pre-trained models from [Models](https://smu-my.sharepoint.com/:u:/g/personal/xwwu_smu_edu_sg/EWBcCC3QrO9LthKX66QCzyoBhFU7PHXKcHhh1lgIC98uKw?e=bHT7vM)
 
 Encoder | Decoder | Crop Size |  Batch Size |mIoU | mAcc | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:
@@ -93,7 +93,7 @@ Example:
 ## ReLeM
 We train recipe information based on the implementation of [im2recipe](https://github.com/torralba-lab/im2recipe-Pytorch) with small modifications, which is trained on [Recipe1M+](http://pic2recipe.csail.mit.edu/) dataset (test images of FoodSeg103 are removed). I may upload the lmdb file later due to the huge datasize (>35G).
 
-It takes about 2~3 weeks to train a ReLeM ViT-Base model with 8 Tesla-V100 cards, so I strongly recommend you use my pre-trained models([ReLeM-ViT-16/B](https://drive.google.com/file/d/1ZWAcYkqmq-6IYZFHDyTp5BZfIcjeywyy/view?usp=sharing), [ReLeM-R50](https://drive.google.com/file/d/18c6wP9rWzEB5mRLtxZbqDmmgZd0VvzK_/view?usp=sharing)).
+It takes about 2~3 weeks to train a ReLeM ViT-Base model with 8 Tesla-V100 cards, so I strongly recommend you use my pre-trained models([url](https://drive.google.com/drive/folders/1LRCHxeMuCXMb68I1XFI8q-aQ2cCyUx_r?usp=sharing).
 
 
 ## Citation
