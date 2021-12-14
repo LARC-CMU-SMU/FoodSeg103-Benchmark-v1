@@ -37,7 +37,7 @@ Please refer to [leaderboard](https://paperswithcode.com/dataset/foodseg103) in 
 
 ## Benchmark and model zoo
 
-We have finished the course so the models are available again. Please download the pre-trained models from [Models](https://smu-my.sharepoint.com/:u:/g/personal/xwwu_smu_edu_sg/EWBcCC3QrO9LthKX66QCzyoBhFU7PHXKcHhh1lgIC98uKw?e=bHT7vM)
+We have finished the course so the models are available again. Please download the pre-trained models from the [link](https://smu-my.sharepoint.com/:u:/g/personal/xwwu_smu_edu_sg/EWBcCC3QrO9LthKX66QCzyoBhFU7PHXKcHhh1lgIC98uKw?e=bHT7vM).
 
 Encoder | Decoder | Crop Size |  Batch Size |mIoU | mAcc | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:
