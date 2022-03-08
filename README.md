@@ -37,7 +37,7 @@ Please refer to [leaderboard](https://paperswithcode.com/dataset/foodseg103) in 
 
 ## Benchmark and model zoo
 
-:exclamation: :exclamation: :exclamation: **We have finished the course so the models are available again. Please download the trained models from the :eyes: [link](https://smu-my.sharepoint.com/:u:/g/personal/xwwu_smu_edu_sg/EWBcCC3QrO9LthKX66QCzyoBhFU7PHXKcHhh1lgIC98uKw?e=bHT7vM).**
+:exclamation::exclamation::exclamation: **We have finished the course so the models are available again. Please download the trained models from THIS [link](https://smu-my.sharepoint.com/:u:/g/personal/xwwu_smu_edu_sg/EWBcCC3QrO9LthKX66QCzyoBhFU7PHXKcHhh1lgIC98uKw?e=bHT7vM):eyes: .**
 
 Encoder | Decoder | Crop Size |  Batch Size |mIoU | mAcc | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:
