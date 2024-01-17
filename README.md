@@ -39,13 +39,13 @@ Please refer to [leaderboard](https://paperswithcode.com/dataset/foodseg103) in 
 :exclamation::exclamation::exclamation: **We have finished the course so the models are available again. Please download the trained models from THIS [link](https://smu-my.sharepoint.com/:u:/g/personal/xwwu_smu_edu_sg/EWBcCC3QrO9LthKX66QCzyoBhFU7PHXKcHhh1lgIC98uKw?e=bHT7vM):eyes: .**
 
 Encoder | Decoder | Crop Size |  Batch Size |mIoU | mAcc 
---- |:---:|:---:|:---:|:---:|:---:|:---:
+--- |:---:|:---:|:---:|:---:|:---:
 R-50	|	[FPN](https://arxiv.org/abs/1901.02446)   | 512x1024  | 8           |  27.8   |  38.2    
 ReLeM-R-50	|	FPN   | 512x1024  | 8       |  29.1   |  39.8   
 R-50	|	[CCNet](https://arxiv.org/abs/1811.11721)   | 512x1024  | 8       |  35.5   |  45.3    
 ReLeM-R-50	|	CCNet   | 512x1024  | 8   |    36.8 | 47.4    
 [PVT-S](https://arxiv.org/abs/2102.12122)	|	FPN   | 512x1024  | 8           |   31.3  | 43.0    
-ReLeM-PVT-S	|	FPN   | 512x1024  | 8           | 32.0    | 44.1     | Model+Config
+ReLeM-PVT-S	|	FPN   | 512x1024  | 8           | 32.0    | 44.1    
 [ViT-16/B](https://openreview.net/forum?id=YicbFdNTTy)	|	[Naive](https://arxiv.org/abs/2012.15840)   | 768x768  | 4           | 41.3    |  52.7    
 ReLeM-ViT-16/B	|	Naive   | 768x768  | 4           | 43.9    |  57.0   
 ViT-16/B	|	PUP   | 768x768  | 4           |  38.5   | 49.1     
