@@ -28,7 +28,12 @@ Please refer to [get_started.md](docs/get_started.md#installation) for installat
 
 ## Dataset
 
-Please download the file from [url](https://research.larc.smu.edu.sg/downloads/datarepo/FoodSeg103.zip) and unzip the data in ./data folder (./data/FoodSeg103/), with passwd: LARCdataset9947
+Please download the file from [url](https://research.larc.smu.edu.sg/downloads/datarepo/FoodSeg103.zip) and unzip the data in ./data folder (./data/FoodSeg103/), with passwd: LARCdataset9947 or use directly through HuggingFace [datasets](https://github.com/huggingface/datasets) with the following code:
+
+```python
+from datasets import load_dataset
+dataset = load_dataset("EduardoPacheco/FoodSeg103")
+```
 
 ## Leaderboard
 
